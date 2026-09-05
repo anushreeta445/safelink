@@ -22,7 +22,7 @@ Just say **"HELP HELP"** and SafeLink will automatically send your live location
 - Geolocation API
 
 ### 👩‍💻 Team
-- Anushreeta | Agartala, Tripura | Hackathon 2026
+- The Bugsmiths | Agartala, Tripura | Hackathon 2026
 
 ### 🚀 How to Run
 1. Unzip the project
