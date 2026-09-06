@@ -1,30 +1,21 @@
-# safelink
-women safety app for hackathon
-# SafeLink - Women Safety App 🛡️
 
-An AI-powered voice-activated safety solution for women.
+# SafeLink - Women Safety App 🛡️ by The Bugsmiths
 
-### 🚨 Problem
-In emergencies, unlocking the phone and calling for help is difficult and takes time.
+### Problem: 
+During an emergency, unlocking the phone and asking for help is difficult and takes time.
 
-### 💡 Our Solution: SafeLink
-Just say **"HELP HELP"** and SafeLink will automatically send your live location to your trusted contacts via SMS/Email.
+### Our Solution:
+**SafeLink 2-in-1 safety system**
 
-### ✨ Features
-- 🎤 Voice-Activated SOS Detection
-- 📍 Real-time Live Location Sharing
-- ⚡ One-Click Emergency Alert
-- 🔒 Safe & Secure
+**1. ONLINE Mode (Secure Link):**
+- Generates a secure link in one click -> `safelink.in/123456`
+- The link contains live location and auto-expires after 30 minutes, so privacy is 100% safe.
 
-### 💻 Tech Stack
-- Python
-- SpeechRecognition API
-- Geolocation API
+**2. OFFLINE Mode (No Internet Needed):**
+- If there is no internet, the app saves the location in `offline_sms_log.txt`, which can later be sent as an SMS to police/family.
 
-### 👩‍💻 Team
-- The Bugsmiths | Agartala, Tripura | Hackathon 2026
+**Tech Stack:** Python Flask
+**Team:** The Bugsmiths
 
-### 🚀 How to Run
-1. Unzip the project
-2. pip install -r requirements.txt
-3. python app.py
+**How to Run:**
+`python safelink3.py`
